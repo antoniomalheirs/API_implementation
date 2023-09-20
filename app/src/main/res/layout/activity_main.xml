@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#EEEEEE"
+                android:clickable="true"
+                android:src="@drawable/relogio1" />
+
+            <TextView
+                android:id="@+id/timage1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back1"
+                android:text="Datejust"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timage2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back3"
+                android:text=" Um relógio para as datas a serem lembradas"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#205170"
+                android:clickable="true"
+                android:src="@drawable/relogio2" />
+
+            <TextView
+                android:id="@+id/timage3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back1"
+                android:text="Submariner"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timage4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back3"
+                android:text=" O relógio de mergulho supremo"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#92A7C2"
+                android:clickable="true"
+                android:src="@drawable/relogio3" />
+
+            <TextView
+                android:id="@+id/timage5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back1"
+                android:text="GMT-Master II"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timage6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back3"
+                android:text=" Dois fusos horários, duas cores, icônico"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#EBEBEB"
+                android:clickable="true"
+                android:src="@drawable/relogio4" />
+
+            <TextView
+                android:id="@+id/timage7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back1"
+                android:text="DaY-Date"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timage8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back3"
+                android:text=" Testemunha de alguns dos momentos mais marcantes da História"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#98B0B4"
+                android:clickable="true"
+                android:src="@drawable/relogio5" />
+
+            <TextView
+                android:id="@+id/timage9"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back1"
+                android:text="Cosmograph Daytona"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timage10"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back3"
+                android:text=" O cronógrafo que fez do relógio um ícone"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#17598A"
+                android:clickable="true"
+                android:src="@drawable/relogio6" />
+
+            <TextView
+                android:id="@+id/timage11"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back1"
+                android:text="Oyster Perpetual"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timage12"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/back3"
+                android:text=" A quintessência da Rolex"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
